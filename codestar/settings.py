@@ -93,6 +93,15 @@ DATABASES = {
 }
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeanyapp.com",
+    "https://*.herokuapp.com",
+    "https://.gitpod.com",
+    "https://.github.com",
+    "https://8000-rikkiebobby-djangoblog-w9xq9t0bbqo.ws-eu108.gitpod.io",
+]
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
